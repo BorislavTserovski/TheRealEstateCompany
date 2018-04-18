@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CompanyClasses\CompanyCreator.cs" />
+    <Compile Include="Estates\Apartment.cs" />
+    <Compile Include="CompanyClasses\MainCompany.cs" />
+    <Compile Include="CompanyClasses\Employee.cs" />
+    <Compile Include="Estates\Estate.cs" />
+    <Compile Include="Estates\House.cs" />
+    <Compile Include="Estates\Location.cs" />
+    <Compile Include="CompanyClasses\Position.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Estates\Store.cs" />
+    <Compile Include="Estates\UndevelopedArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
